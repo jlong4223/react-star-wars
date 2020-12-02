@@ -29,21 +29,9 @@ function App() {
       <header className="App-header">
         <h1>React Star Wars</h1>
       </header>
-      <div className="starShipCard">
-        <StarShipCard />
-        <StarShipCard />
-        <StarShipCard />
-      </div>
-      <div className="starShipCard">
-        <StarShipCard />
-        <StarShipCard />
-        <StarShipCard />
-      </div>  
-      <div className="starShipCard">
-        <StarShipCard />
-        <StarShipCard />
-        <StarShipCard />
-      </div>
+      {starShipData.results.map((result, idx)=>(
+        <StarShipCard key={idx} result={result}/>
+      ))}
     </div>
   );
 }
