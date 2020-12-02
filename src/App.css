@@ -13,3 +13,10 @@
   color: white;
 }
 
+.starShipCard{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px dotted red;
+}
+
