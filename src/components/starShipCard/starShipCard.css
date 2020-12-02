@@ -1,0 +1,9 @@
+.StarShipCard{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px dotted red;
+    flex-wrap: wrap;
+    width: 250px;
+    height: 150px;
+  }
