@@ -1,9 +1,14 @@
 .App {
   text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)), url('https://www.slashgear.com/wp-content/uploads/2020/04/star_wars_bridge_main.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .App-header {
-  background-color: var(--primary-color);
+  /* background-color: var(--primary-color); */
   height: 100px;
   display: flex;
   flex-direction: column;
