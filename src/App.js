@@ -1,7 +1,7 @@
 import {useState, useEffect} from 'react'
 import './App.css';
 import {getStarShips} from './services/sw-api'
-import {StarShipCard} from './components/starShipCard'
+import {StarShipCard} from './components/starShipCard/starShipCard'
 
 
 
