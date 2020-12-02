@@ -2,8 +2,15 @@
     display:flex;
     justify-content: center;
     align-items: center;
-    border: 1px dotted red;
     flex-wrap: wrap;
     width: 250px;
-    height: 150px;
+    height: 180px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color:var(--primary-color);
+    color: white;
+  }
+
+  .cardtitle{
+     border-bottom: 1px solid var(--secondary-color); 
   }
