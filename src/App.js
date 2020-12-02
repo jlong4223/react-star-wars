@@ -27,11 +27,13 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>React Star Wars</h1>
+        <h1>STAR WARS STARSHIPS</h1>
       </header>
+      <div className="starShipApp">
       {starShipData.results.map((result, idx)=>(
         <StarShipCard key={idx} result={result}/>
       ))}
+      </div>
     </div>
   );
 }
