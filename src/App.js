@@ -2,6 +2,7 @@ import {useState, useEffect} from 'react'
 import './App.css';
 import {getStarShips} from './services/sw-api'
 import {StarShipCard} from './components/starShipCard/starShipCard'
+import Header from './components/header/header'
 
 
 
@@ -26,9 +27,7 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>STAR WARS STARSHIPS</h1>
-      </header>
+      <Header />
       <div className="starShipApp">
       {starShipData.results.map((result, idx)=>(
         <StarShipCard key={idx} result={result}/>
